@@ -1,0 +1,163 @@
+/*
+	1. Data for CLIENT_MASTER table 
+*/
+INSERT INTO client_master
+VALUES(
+    (
+        "C00001",
+        "Abdul Salam",
+        "B-3, Block-84a, Massan Town Lahore.",
+        "",
+        "Lahore",
+        "Punjab",
+        400054,
+        20000
+    ),
+    (
+        "C00002",
+        "Sheeraz",
+        "A-3, Block-2, Landhi Town Karachi.",
+        "",
+        "Karachi",
+        "Sindh",
+        780001,
+        0
+    ),
+    (
+        "C00003",
+        "Faraz",
+        "House-5842, Bilbil Town Multan.",
+        "",
+        "Multan",
+        "Punjab",
+        560001,
+        25000
+    ),
+    (
+        "C00004",
+        "Malik",
+        "House no : 41-B, Block-C7, AliMar, Hyderabad.",
+        "",
+        "Hyderabad",
+        "Sindh",
+        780001,
+        10000
+    ),
+    (
+        "C00005",
+        "Ali",
+        "House no : 41, street: 3-a, Block-4, KerGali, Faisalabad.",
+        "",
+        "Faisalabad",
+        "Punjab",
+        400054,
+        5000
+    )
+);
+/*
+	2. Data for PRODUCT_MASTER table
+*/
+INSERT INTO product_master
+VALUES(
+    (
+        "P00001",
+        "Tshirt",
+        5,
+        "piece",
+        200,
+        0,
+        350,
+        250
+    ),
+    (
+        "P00065",
+        "Shirt",
+        6,
+        "piece",
+        150,
+        0,
+        500,
+        350
+    ),
+    (
+        "P00032",
+        "Jeans",
+        5,
+        "piece",
+        100,
+        0,
+        600,
+        450
+    ),
+    (
+        "P00324",
+        "Skrits",
+        4,
+        "piece",
+        120,
+        0,
+        750,
+        500
+    ),
+    (
+        "P02345",
+        "Cottonjeans",
+        3,
+        "piece",
+        80,
+        0,
+        850,
+        550
+    )
+);
+/*
+	3. Data for SALESMAN_MASTER table 
+*/
+INSERT INTO salesman_master
+VALUES(
+    (
+        "S00001",
+        "Aman",
+        "A/4",
+        NULL,
+        "Karachi",
+        "Sindh",
+        400002
+    ),
+    (
+        "S00065",
+        "Raj",
+        "P-7",
+        NULL,
+        "Hydrabad",
+        "Sindh",
+        400001
+    ),
+    (
+        "S00032",
+        "Abdullah",
+        "A/5",
+        NULL,
+        "Multan",
+        "Punjab",
+        400032
+    ),
+    (
+        "S00324",
+        "Vimal",
+        "R-2",
+        NULL,
+        "Faislabad",
+        "Punjab",
+        400044
+    ),
+    (
+        "S02345",
+        "Himmat",
+        "B-3",
+        NULL,
+        "Lahore",
+        "Punjab",
+        400047
+    )
+);
